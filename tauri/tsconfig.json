@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["renderer", "auth-server/auth-be", "auth-server/src", "auth-server/tsconfig.json"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
